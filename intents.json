@@ -1,0 +1,296 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "How are you feeling?", "Is everything okay?", "Hello", "Good day", "Hey", "Greetings"],
+            "responses": [
+                "Hi there! I'm here for you. How are you feeling today?",
+                "Hello! It's good to see you. How has your day been so far?",
+                "Greetings! I'm here to chat and support you. How are you doing?",
+                "Hey! I'm here to listen. What's on your mind?",
+                "Good day! I'm ready for our conversation. How can I support you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later", "Farewell", "Until next time", "Take care", "Goodnight"],
+            "responses": [
+                "Goodbye for now. Take care of yourself, and I'll be here whenever you need to talk.",
+                "Farewell! Remember, I'm here whenever you want to reach out. Take care!",
+                "Until next time! If you ever need support, don't hesitate to return. Take care!",
+                "See you later! Wishing you peace and positivity until we meet again.",
+                "Goodnight! If thoughts weigh on you, I'm just a message away. Take care."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "I appreciate it", "Thanks for being here"],
+            "responses": [
+                "You're very welcome! I'm here to help and support you.",
+                "I'm glad I could assist. If there's more on your mind, feel free to share.",
+                "My pleasure! Your well-being is important, and I'm here for you.",
+                "Anytime! Your appreciation means a lot. How can I continue supporting you?"
+            ]
+        },
+        {
+            "tag": "feelings",
+            "patterns": ["I'm feeling down", "I'm not okay", "I'm feeling anxious", "I feel a bit lost", "I'm struggling emotionally", "I'm upset"],
+            "responses": [
+                "I'm truly sorry to hear that you're feeling this way. It's okay to not be okay. I'm here to listen and support you.",
+                "I'm here for you. If you're comfortable, share more about what you're going through.",
+                "I'm sorry that you're experiencing this. If you'd like, we can explore together and find ways to make things a bit better.",
+                "It's tough when emotions weigh heavy. Let's talk about it, and we can work through this together."
+            ]
+        },
+        {
+            "tag": "empathy",
+            "patterns": ["I need someone to understand", "Can you empathize with me?", "I feel alone in this", "Is there anyone who cares?", "I just want to be heard"],
+            "responses": [
+                "I hear you, and I'm here for you. Your feelings are valid, and you're not alone in this journey.",
+                "I can imagine this is challenging for you. I'm here to offer my understanding and support.",
+                "Feeling alone can be incredibly tough. I'm here to be a compassionate presence and provide the support you need.",
+                "You're not alone, and your feelings matter. I'm here to empathize and assist however I can."
+            ]
+        },
+        {
+            "tag": "relationship_problems",
+            "patterns": ["I'm having issues in my relationship", "My partner and I are struggling", "How do I deal with relationship problems?", "I need advice on my relationship", "Can we talk about love troubles?"],
+            "responses": [
+                "I'm here to help you navigate through your relationship challenges. Feel free to share what's on your mind, and we can explore solutions together.",
+                "Relationships can be complex, but you don't have to face it alone. Let's discuss your concerns, and we can work towards understanding and resolution.",
+                "Dealing with relationship issues can be tough. I'm here to provide support and guidance. What's been happening, and how can I assist you?",
+                "I understand that relationships can be challenging. Let's talk about what you're going through, and we can explore ways to improve the situation."
+            ]
+        },
+        {
+            "tag": "mental_health",
+            "patterns": ["I'm struggling with my mental health", "How do I cope with mental health issues?", "I need support for my mental health", "Can we talk about mental health?", "I'm feeling overwhelmed mentally"],
+            "responses": [
+                "I'm here to support you with your mental health. It's okay to seek help. What's on your mind, and how can I assist you today?",
+                "Taking care of your mental health is important. Let's talk about what you're going through, and we can explore coping strategies together.",
+                "I'm here to provide a listening ear and support for your mental health. Feel free to share your thoughts and concerns.",
+                "Mental health is a priority, and I'm here to help. Let's discuss what you're facing, and we can work towards positive steps for your well-being."
+            ]
+        },
+        {
+            "tag": "sharing_feelings",
+            "patterns": ["I need to talk about my feelings", "Can I share what's on my mind?", "I want to open up", "Let's talk about emotions", "I'm going through a lot"],
+            "responses": [
+                "Absolutely, feel free to share whatever you're comfortable with. I'm here to listen without judgment.",
+                "I'm here for you. Expressing your feelings is a courageous step, and I'm here to provide a safe space for you.",
+                "Opening up about your feelings is an important part of self-care. I'm here to provide support and understanding.",
+                "It's crucial to talk about what you're going through. I'm here to listen, and we can discuss anything that's on your mind."
+            ]
+        },
+        {
+            "tag": "understanding",
+            "patterns": ["Do you understand how I feel?", "Can you comprehend my emotions?", "It's hard to explain, but I'm struggling", "I need someone who gets it", "Understanding my feelings is difficult"],
+            "responses": [
+                "While I may not fully understand your experience, I'm here to listen and support you as best as I can.",
+                "I may not share the same feelings, but I'm dedicated to understanding and assisting you through whatever you're going through.",
+                "Expressing complex emotions can be challenging. I'm here to listen and help you navigate those feelings.",
+                "I may not fully comprehend, but I'm here with an open heart to understand and support you in any way I can."
+            ]
+        },
+        {
+            "tag": "encouragement",
+            "patterns": ["I need encouragement", "Can you motivate me?", "Give me a pep talk", "I'm feeling low and need a lift", "Encourage me to keep going"],
+            "responses": [
+                "You've got this! Challenges are opportunities for growth. Take one step at a time, and I believe in your strength.",
+                "You are stronger than you think. Even in difficult times, your resilience shines through. Keep going!",
+                "In moments of difficulty, remember that you have the power to overcome. You're capable, and I'm here to support you.",
+                "You're not alone, and you're stronger than you realize. Let's focus on the positives and take steps forward together."
+            ]
+        },
+        {
+            "tag": "hope",
+            "patterns": ["I'm losing hope", "Can you give me hope?", "Tell me something hopeful", "I feel hopeless", "Give me reasons to be hopeful"],
+            "responses": [
+                "I know it might feel tough right now, but remember that hope can be found even in the darkest moments. Things can change, and I'm here to support you.",
+                "Even in difficult times, there's room for hope. Let's explore positive possibilities and work towards a brighter future together.",
+                "It's okay to feel this way, and I want to help you find hope. Let's focus on the positive aspects and small victories in your life.",
+                "Hope is a powerful force. Despite the challenges, there are possibilities and opportunities ahead. Let's discover them together."
+            ]
+        },
+        {
+            "tag": "reflection",
+            "patterns": ["I need time to reflect", "Can we talk about self-discovery?", "I want to understand myself better", "Reflecting on my feelings", "Help me explore my thoughts"],
+            "responses": [
+                "Taking time to reflect is a wonderful step towards self-discovery. I'm here to explore your thoughts and feelings with you.",
+                "Self-reflection is a valuable process. Let's delve into your thoughts and emotions to better understand yourself.",
+                "Understanding yourself is a journey, and I'm here to assist you in exploring and reflecting on your thoughts and feelings.",
+                "Reflecting on your feelings is a meaningful practice. Let's take the time to explore and gain insights into your inner self."
+            ]
+        },
+        {
+            "tag": "celebration",
+            "patterns": ["I achieved something", "Can we celebrate my success?", "I want to share good news", "Let's rejoice together", "I did something positive"],
+            "responses": [
+                "Congratulations on your achievement! That's fantastic news. Let's celebrate your success together.",
+                "I'm thrilled to hear about your accomplishment! Your hard work has paid off. Let's take a moment to celebrate.",
+                "What wonderful news! I'm so happy for you. Let's acknowledge and celebrate this positive moment.",
+                "That's an amazing achievement! I'm here to celebrate your success with you. Well done!"
+            ]
+        },
+        {
+            "tag": "gratitude",
+            "patterns": ["I'm grateful for your support", "Thank you for being here", "Grateful for your assistance", "I appreciate your help", "Thanks for listening"],
+            "responses": [
+                "Thank you for expressing your gratitude. I'm here to support you whenever you need.",
+                "I'm touched by your appreciation. It's my pleasure to assist you. If there's anything else you'd like to talk about, feel free to share.",
+                "Your gratitude means a lot. I'm grateful for the opportunity to be here for you.",
+                "I appreciate your kind words. If there's anything specific you'd like to discuss, feel free to let me know."
+            ]
+        },
+        {
+            "tag": "continuation",
+            "patterns": ["Tell me more", "What else can we talk about?", "Continue", "Keep going", "I'm interested"],
+            "responses": [
+                "Sure thing! Is there a specific aspect you'd like to explore further, or do you have another topic in mind?",
+                "I'm here to chat about anything you have in mind. What are you curious about or interested in?",
+                "Great! We can continue discussing the current topic or explore something new. What would you prefer?",
+                "Absolutely! If there's a particular aspect you want to delve deeper into or if you have another question, feel free to let me know."
+            ]
+        },
+        {
+            "tag": "appreciation",
+            "patterns": ["I appreciate your help", "Thank you for being here", "You're doing great", "Grateful for your support", "Thanks for listening"],
+            "responses": [
+                "Thank you for your kind words! I'm here to assist you whenever you need.",
+                "I'm glad I could be of help! If there's anything else you'd like to discuss, just let me know.",
+                "Your appreciation means a lot. It's my pleasure to be here for you.",
+                "I'm grateful for the opportunity to assist you. If there's anything specific you'd like to talk about, feel free to share."
+            ]
+        },
+        {
+            "tag": "loneliness",
+            "patterns": ["I feel lonely", "I'm alone and need someone to talk to", "Loneliness is overwhelming", "Can we talk about feeling alone?", "I crave connection"],
+            "responses": [
+                "I hear you, and I'm here to keep you company. You're not alone in this, and we can chat about anything you'd like.",
+                "Loneliness can be challenging. I'm here to be a companion and lend a supportive ear. What's on your mind?",
+                "Feeling lonely is tough, but I'm here to provide company and support. Let's chat and ease that sense of isolation.",
+                "You're not alone in feeling lonely. I'm here to talk and offer companionship. What would you like to share?"
+            ]
+        },
+        {
+            "tag": "self_love",
+            "patterns": ["I struggle with self-love", "How do I practice self-love?", "Can we talk about self-compassion?", "Building self-esteem is hard", "I need help loving myself"],
+            "responses": [
+                "Self-love is a journey, and I'm here to support you on that path. Let's explore ways to nurture a positive relationship with yourself.",
+                "Practicing self-love is important, and I'm here to help you discover ways to embrace and appreciate yourself.",
+                "Building self-love takes time, and you're not alone in that journey. Let's discuss strategies to cultivate a stronger sense of self-compassion.",
+                "I understand that self-love can be challenging. I'm here to provide guidance and encouragement as you navigate this aspect of your life."
+            ]
+        },
+        {
+            "tag": "forgiveness",
+            "patterns": ["I find it hard to forgive", "How do I forgive someone?", "Let's talk about forgiveness", "I'm struggling with forgiveness", "Forgiving myself is difficult"],
+            "responses": [
+                "Forgiveness can be a complex process. I'm here to support you as you explore and navigate the path towards forgiveness, whether for others or yourself.",
+                "Forgiveness is a powerful step towards healing. Let's discuss your feelings and work together on understanding and embracing the concept of forgiveness.",
+                "Struggling with forgiveness is understandable. I'm here to help you explore the emotions involved and find a way forward that feels right for you.",
+                "Forgiveness is a journey, and I'm here to assist you as you navigate through the challenges. Let's talk about your experiences and feelings."
+            ]
+        },
+        {
+            "tag": "personal_growth",
+            "patterns": ["I want to grow as a person", "How can I achieve personal growth?", "Let's talk about self-improvement", "I'm on a journey of personal development", "Can you help me grow as an individual?"],
+            "responses": [
+                "Personal growth is a wonderful journey, and I'm here to support you every step of the way. Let's explore ways to foster your personal development.",
+                "Embarking on a journey of personal growth is commendable. I'm here to assist you in setting goals and navigating the path towards self-improvement.",
+                "Personal development is a continuous process, and I'm here to help you on your journey. What aspects of yourself would you like to focus on?",
+                "I'm excited to be part of your journey toward personal growth. Let's discuss your aspirations and the steps you can take to achieve them."
+            ]
+        },
+        {
+            "tag": "reflecting_on_life",
+            "patterns": ["I need to reflect on my life", "Can we talk about life choices?", "I'm going through a period of reflection", "Reflecting on life decisions", "Help me make sense of my life"],
+            "responses": [
+                "Reflecting on life is a meaningful process, and I'm here to explore those thoughts with you. What aspects of your life are you currently pondering?",
+                "Taking time for introspection is important. I'm here to assist you in reflecting on your life and making sense of the choices you've made.",
+                "Life reflection can be enlightening. Let's delve into your thoughts and experiences to gain insights and clarity.",
+                "I'm here to support you as you navigate through moments of reflection on life. Feel free to share your thoughts and concerns."
+            ]
+        },
+        {
+            "tag": "coping_strategies",
+            "patterns": ["How do I cope with stress?", "Can we talk about coping strategies?", "I need healthy ways to deal with challenges", "Teach me stress management techniques", "Coping with difficult emotions"],
+            "responses": [
+                "Coping with stress is a common challenge, and I'm here to help you explore effective strategies for managing it. What specific stressors are you facing?",
+                "Let's discuss coping strategies that work for you. I'm here to provide guidance on navigating through challenges and difficult emotions.",
+                "Dealing with challenges can be overwhelming, but you don't have to face them alone. I'm here to share coping strategies and support you in finding healthier ways to manage stress.",
+                "Coping with difficult emotions is part of the human experience. I'm here to assist you in identifying and implementing effective coping strategies tailored to your needs."
+            ]
+        },
+        {
+            "tag": "excitement",
+            "patterns": ["I'm so excited", "This is amazing news", "I can't believe it", "I'm thrilled", "Exciting things are happening"],
+            "responses": [
+                "That's fantastic! I can feel your excitement. Tell me more about what's going on!",
+                "I love hearing about exciting moments! What's making you feel so thrilled?",
+                "Excitement is contagious! Share the details of what has you feeling so elated.",
+                "Amazing news! I'm here to celebrate with you. What's bringing you this incredible excitement?"
+            ]
+        },
+        {
+            "tag": "disappointment",
+            "patterns": ["I'm disappointed", "This didn't go well", "It's not what I expected", "Feeling let down", "Disappointing outcome"],
+            "responses": [
+                "I'm sorry to hear that you're feeling disappointed. It's okay to share what happened; I'm here for you.",
+                "Disappointments can be tough. If you're comfortable, let's talk about what didn't go as expected.",
+                "I understand it's not easy when things don't go well. Feel free to share your thoughts and feelings about what happened.",
+                "I'm here to support you through disappointments. Take your time, and let's discuss what's on your mind."
+            ]
+        },
+        {
+            "tag": "gratitude",
+            "patterns": ["I'm grateful for today", "Feeling thankful", "Grateful for the support", "I appreciate the little things", "Thankful for the positive moments"],
+            "responses": [
+                "Gratitude is wonderful! I'm glad to hear you're feeling thankful. What's bringing gratitude into your day?",
+                "Expressing gratitude is a beautiful practice. What specific things are you appreciating right now?",
+                "It warms my 'virtual' heart to hear you're feeling grateful. Share the moments or people you're thankful for!",
+                "Gratitude is a powerful emotion. Let's celebrate the positive moments together. What are you appreciative of today?"
+            ]
+        },
+        {
+            "tag": "overwhelmed",
+            "patterns": ["I feel overwhelmed", "It's too much to handle", "Feeling swamped", "Overwhelmed by emotions", "Stressed and anxious"],
+            "responses": [
+                "Feeling overwhelmed is tough. I'm here to listen and support you. What's contributing to this sense of being overwhelmed?",
+                "It's okay to feel overwhelmed. Let's talk about what's on your plate and see if we can find ways to ease the load.",
+                "I hear you're going through a lot. Take a deep breath, and let's discuss the things that are making you feel overwhelmed.",
+                "I'm here to help you navigate through overwhelming feelings. Feel free to share, and we can work through it together."
+            ]
+        },
+        {
+            "tag": "contentment",
+            "patterns": ["I feel content", "Life is good right now", "Satisfied with where I am", "Content and at peace", "Enjoying the present moment"],
+            "responses": [
+                "Contentment is a wonderful state of mind. I'm curious, what's contributing to your sense of satisfaction right now?",
+                "I love hearing that you're feeling content. What aspects of your life are bringing you this sense of peace?",
+                "Being content is a great feeling. Let's savor this moment together. What's making you feel satisfied with life?",
+                "Contentment is like a warm embrace. I'm here to chat about the positive aspects of your life that are contributing to this sense of fulfillment."
+            ]
+        },
+        {
+            "tag": "nostalgia",
+            "patterns": ["I'm feeling nostalgic", "Reminiscing about the past", "Thinking about old memories", "Nostalgic for good times", "Reflecting on the past"],
+            "responses": [
+                "Nostalgia can be a bittersweet feeling. I'm here to listen as you reflect on the past. What memories are on your mind?",
+                "Reflecting on old memories is a beautiful practice. Share the moments from the past that are close to your heart.",
+                "Nostalgia has a way of bringing us back in time. Let's talk about the experiences and memories you're feeling nostalgic about.",
+                "I appreciate the depth of nostalgia. Feel free to open up about the past, and we can explore those memories together."
+            ]
+        },
+        {
+            "tag": "hopeful_future",
+            "patterns": ["I'm hopeful for the future", "Feeling optimistic about what's to come", "Excited about the possibilities", "Hopeful despite challenges", "Looking forward to better times", "Quite excited for the future"],
+            "responses": [
+                "Optimism is a powerful mindset. I'm interested to hear what's fueling your hope for the future. What are you looking forward to?",
+                "Feeling hopeful is a beautiful perspective. Let's talk about the positive possibilities and exciting moments you anticipate in the future.",
+                "Despite challenges, your sense of hope is inspiring. Share the aspects of the future that you're feeling optimistic about.",
+                "Hope for the future is a wonderful mindset. I'm here to support you as you look forward to better times. What are your aspirations?"
+            ]
+        }
+    ]
+}
